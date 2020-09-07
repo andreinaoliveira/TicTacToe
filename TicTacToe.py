@@ -1,10 +1,12 @@
 
 
+# Retorna uma matriz 3x3, a qual será o tabuleiro.
 def NewGame():
     board = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     return board
 
 
+# Imprime o tabuleiro.
 def PrintBoard(board):
     print("""
         Tic Tac Toe
@@ -29,6 +31,7 @@ Player 1 (X) - Player 2 (O)
                board[2][2]))
 
 
+# Jogada, Recebe o Tabuleiro (Matriz) e o número do jogador da vez (1 ou 2). Solicita do jogador a posição da jogada.
 def Play(board, player):
     number = int(input('Player {}, enter a number: '.format(player)))
     if player == 1:
@@ -55,13 +58,14 @@ def Play(board, player):
         board[2][2] = choice
 
 
+# Checa se há ganhadores.
 def Win(board):
     if board[0][0] == board[1][1] and board[1][1] == board[2][2]:
         if board[0][0] == 'X':
             return 1
         else:
             return 2
-    if board[0][2] == board[1][1] and board[1][1] == board [2][0]:
+    if board[0][2] == board[1][1] and board[1][1] == board[2][0]:
         if board[0][0] == 'X':
             return 1
         else:
