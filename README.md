@@ -1,6 +1,7 @@
 # Tic Tac Toe
 
 Passatempo popular, o Tic Tac Toe, ou melhor, Jogo da Velha aqui no Brasil, é um jogo com regras simples e fácil de aprender.
+<center><img src="https://images-na.ssl-images-amazon.com/images/I/21sQ-B9eNlL.png" height="300"></center>
 
 ## Regras
 
