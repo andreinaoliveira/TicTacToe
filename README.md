@@ -12,7 +12,7 @@ O Tabuleiro é uma matriz 3x3 onde há dois jogadores, X e O. O objetivo é cria
 -	Aplicar melhor solução para checar ganhador.
 -	Modo Single Player.
 
-### Pré-requisitos
+## Pré-requisitos
 
 Softwares necessários:
 
